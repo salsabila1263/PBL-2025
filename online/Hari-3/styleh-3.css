@@ -1,0 +1,134 @@
+.header-wrap{
+    display: grid;
+    background-color: cadetblue;
+    align-items: center;
+    width: 50%;
+    margin-left: 25%;
+    border-radius: 6px;
+}
+.content-wrap{
+    object-fit: cover;
+    border-radius:6px;
+    border:3px solid rgba(0, 0, 0, 0.0789);
+    width: 50%;
+    margin-left: 25%;
+    align-items: flex-start;
+}
+.content{
+    justify-content: center;
+    object-fit: cover;
+    align-items: flex-start;
+    font-family: Arial, sans-serif;
+    margin-top: -30%;
+}
+table, th, td{
+    border-collapse: collapse;
+    border: 1px solid;
+    padding: 8px;
+    margin-left: 15%;
+    margin-top: 5%;
+    font-family: Arial, sans-serif;
+}
+th,td{
+    padding: 8px;
+}
+th{
+    background-color: chocolate;
+    color: aliceblue;
+}
+caption{
+    text-align: left;
+    padding-bottom: 3%;
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+}
+.container{
+  display: flex;
+  justify-content: space-between; 
+  align-items: flex-start;                              
+  margin-left: 5%;
+  margin-top: 5%;
+  max-width: 900px;               
+}
+.kiri, .kanan{
+  flex: 10;                              
+  padding: 15px;
+  font-family: Arial, sans-serif;
+}
+.kiri, caption{
+  font-weight: bold;
+  font-size: 20px;
+  font-family: Arial, sans-serif;
+}
+.kanan, caption{
+  font-weight: bold;
+  font-size: 20px;
+  font-family: Arial, sans-serif;
+}
+.kiri h4, .kanan h4{
+  margin-top: 10px;
+  margin-bottom: 5px;
+  font-size: 16px;
+  padding-bottom: 3px;
+}
+ul {
+  margin: 5px 0 10px 20px;
+  padding: 0;
+}
+li {
+    font-size: 16px;
+    margin-bottom: 5px;
+    line-height: 1.5;
+    font-weight: lighter;
+}
+
+h1{
+    color: black;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    max-width: 900px;
+    margin: 10px auto;
+    padding: 25px;
+}
+
+h3, p{
+    text-align: left;
+    justify-content: left;
+    object-fit: cover;
+    display: flex;
+    font-family: Arial, sans-serif;
+    margin-left: 35%;
+}
+h5{
+    color: aliceblue;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-style: italic;
+    margin-top: 0%;
+ font-weight: lighter;
+}
+
+img{
+    width:100px;
+    height:100px;
+    object-fit:cover;
+    margin-left: 15%;
+    margin-top: 10%;
+}
+
+.navigasi ul { 
+    display: flex; 
+    margin-left: 0%;
+    justify-content: center;
+    list-style-type: none;
+    background-color: blanchedalmond;
+    gap: 100px;
+}
+
+.wrap {
+    display: grid;
+    background-color: blanchedalmond;
+    align-items: center;
+    border-radius: 6px;
+    margin: 2px 2px 2px 2px;
+}
