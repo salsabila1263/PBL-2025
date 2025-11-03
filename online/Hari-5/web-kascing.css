@@ -1,0 +1,176 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f4f1ec; 
+  color: #1b1b1b; 
+}
+
+.header-banner {
+  background-color: #4e342e; 
+  color: #e8f5e9;
+  padding: 20px;
+  text-align: center;
+}
+
+.logo-title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logo-title img {
+  width: 100px;
+  margin-bottom: 10px;
+}
+
+nav.navigasi ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  padding: 0;
+  margin-top: 10px;
+}
+
+nav.navigasi a {
+  text-decoration: none;
+  color: #a5d6a7; 
+  font-weight: bold;
+}
+
+.hero-section {
+  background-color: #c8e6c9; 
+  padding: 40px;
+  text-align: center;
+}
+
+.hero-content h1 {
+  color: #1b5e20;
+  font-size: 28px;
+}
+
+.hero-content span {
+  color: #2e7d32; 
+  font-weight: bold;
+}
+
+.hero-content img {
+  max-width: 300px;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+
+.menu-favorit {
+  padding: 40px;
+  background-color: #fff;
+  text-align: center;
+}
+
+.menu-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 20px;
+}
+
+.menu-card {
+  background-color: #f3f0e7;
+  border: 1px solid #a1887f; 
+  border-radius: 10px;
+  padding: 20px;
+  width: 250px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.menu-card img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.menu-card h3 {
+  color: #388e3c; 
+}
+
+.tentang-kami {
+  background-color: #e8f5e9;
+  padding: 40px;
+  text-align: center;
+}
+
+.testimoni {
+  background-color: #f3f0e7;
+  padding: 40px;
+  text-align: center;
+}
+
+.testimoni-container {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.testi-card {
+  background-color: #ffffff;
+  border-left: 5px solid #388e3c;
+  padding: 20px;
+  width: 300px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.form-pesan {
+  background-color: #d7ccc8;
+  padding: 40px;
+  text-align: center;
+}
+
+.form-pesan form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  max-width: 400px;
+  margin: auto;
+}
+
+.form-pesan input,
+.form-pesan textarea {
+  padding: 10px;
+  border: 1px solid #a1887f;
+  border-radius: 5px;
+}
+
+.form-pesan button {
+  background-color: #2e7d32;
+  color: white;
+  border: none;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.kontak {
+  background-color: #d7ccc8;
+  padding: 40px;
+  text-align: center;
+}
+
+.kontak-info i {
+  margin-right: 10px;
+  color: #4e342e;
+}
+
+.kontak-info a {
+  color: #2e7d32;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+footer {
+  background-color: #3e2723;
+  color: #c8e6c9;
+  text-align: center;
+  padding: 15px;
+  font-size: 14px;
+}
